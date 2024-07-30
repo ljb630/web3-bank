@@ -1,4 +1,3 @@
-# DeBank
 # Web3 Bank
 
 A simple Web3 bank application built with React and Ethereum smart contracts. This project demonstrates basic functionalities of a blockchain-based bank, allowing users to deposit and withdraw Ether using a smart contract.
@@ -40,13 +39,13 @@ A simple Web3 bank application built with React and Ethereum smart contracts. Th
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+    git clone https://github.com/ljb630/web3-bank.git
     ```
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd web3-bank-frontend
+    cd web3-bank/web3-bank-frontend
     ```
 
 3. **Install Dependencies:**
@@ -59,7 +58,7 @@ A simple Web3 bank application built with React and Ethereum smart contracts. Th
 
 4. **Compile and Migrate Smart Contracts:**
 
-    Follow the instructions in the `web3-bank-smart-contract` directory to compile and migrate your smart contracts using Truffle or Hardhat.
+    Follow the instructions in the `web3-bank/web3-bank-smart-contract` directory to compile and migrate your smart contracts using Truffle or Hardhat.
 
 5. **Start the Frontend Application:**
 
@@ -85,7 +84,7 @@ To deploy the smart contract:
 1. **Navigate to the `web3-bank-smart-contract` Directory:**
 
     ```bash
-    cd web3-bank-smart-contract
+    cd web3-bank/web3-bank-smart-contract
     ```
 
 2. **Compile Contracts:**
@@ -102,7 +101,7 @@ To deploy the smart contract:
 
 4. **Update Frontend with Contract Details:**
 
-    Update the `Bank.json` file in the `src/contracts` directory with the contract ABI and address from the deployment.
+    Update the `Bank.json` file in the `web3-bank/web3-bank-frontend/src/contracts` directory with the contract ABI and address from the deployment.
 
 ## Troubleshooting
 
